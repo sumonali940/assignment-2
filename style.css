@@ -352,8 +352,80 @@ p.fv-descrription {
 #play-game{
     padding: 100px 0px;
 }
+#careers{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.careers-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.careers-content{
+    width: 50%;
+}
+.careers-image{
+    width: 50%;
+}
+.careers-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li {
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}
+ul{
+    padding: 0;
+}
+button.btn-white {
+    border-radius: 48px;
+    background: #FFF;
+    padding: 10px 25px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #FF42A5;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+button.btn-white a{
+    font-weight: 600;
+    color: #FF42A5;
+    text-decoration: none;
+}
+.right-list{
+    text-align: right;
+}
+h2.careers-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    margin: 0;
+}
 
+p.careers-description {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 166.667% */
+    margin: 0;
+}
 
+.careers-list {
+    color: #fff;
+}
+.careers-image img {
+    width: 100%;
+}
 
 
 
