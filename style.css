@@ -272,6 +272,56 @@ p.fv-descrription {
     border-radius: 15px;
     width: 99%;
 }
+.play-invest-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-invest-image img {
+    width: 100%;
+}
+.play-invest-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.play-invest-image img {
+    width: 100%;
+}
+
+.play-invest-content {
+    width: 50%;
+    text-align: center;
+}
+
+.play-invest-image {
+    width: 50%;
+}
+
+.play-invest-tittle{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size:2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.content {
+    width: 365px;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px){
     .container{
