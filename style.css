@@ -470,14 +470,38 @@ ul.share-link li:hover{
 .fmenu li a{
     color: #fff;
     text-decoration: none;
+    padding: 0px 20px;
 }
 ul.fmenu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
+.shareIcons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+ul.shareIcons li {
+    padding: 12px;
+}
 
-
+ul.shareIcons li img {
+    width: 25px;
+}
+.fmenu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fmenu2 li a{
+    color: gray;
+    text-decoration: none;
+    padding: 0px 20px;
+}
 
 
 
