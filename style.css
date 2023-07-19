@@ -272,6 +272,9 @@ p.fv-descrription {
     border-radius: 15px;
     width: 99%;
 }
+#play-invest{
+    padding: 50px 0px;
+}
 .play-invest-wrapper {
     display: flex;
     justify-content: space-between;
@@ -300,6 +303,7 @@ p.fv-descrription {
 
 .play-invest-image {
     width: 50%;
+    position: relative;
 }
 
 .play-invest-tittle{
@@ -310,10 +314,44 @@ p.fv-descrription {
     font-weight: 700;
     line-height: 60px;
 }
+.play-invest-tittle2{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 2.50rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
 .content {
     width: 365px;
 }
-
+.content2{
+    width: 365px;
+    margin: auto;
+    text-align: left;
+    margin-left: 160px;
+}
+.position-img {
+    position: absolute;
+    bottom: -70px;
+    left: -130px;
+    width: 230px;
+}
+.position-img2 {
+    position: absolute;
+    bottom: -70px;
+    right: -130px;
+    width: 230px;
+}
+.colorBg{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#play-game{
+    padding: 100px 0px;
+}
 
 
 
@@ -379,5 +417,59 @@ p.fv-descrription {
         flex-direction: column;
         align-items: center;
     }
-
+    .play-invest-wrapper{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .play-invest-tittle{
+        font-size: 1.75rem;
+        line-height: 40px;
+    }
+    .play-invest-image{
+        width: 70%;
+    }
+    .position-img {
+        position: absolute;
+        bottom: -140px;
+        left: 10px;
+        transform: translate(-50%,-50%);
+        width: 130px
+    }
+    .online-game-text {
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .content2{
+        width: 100%;
+    }
+    
+    .position-img2 {
+        position: absolute;
+        bottom: -140px;
+        right: -115px;
+        transform: translate(-50%,-50%);
+        width: 130px
+    }
+    .content2{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .play-invest-content{
+        width: 100%;
+    }
+    .play-games{
+        flex-direction: column-reverse;
+    }
+    .section.section-three{
+        padding: 40px 0px;
+    }
+    #play-invest{
+        padding: 20px 0;
+    }
+    #play-game{
+        padding: 50px 0;
+    }
 }
