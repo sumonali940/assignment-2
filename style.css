@@ -214,6 +214,7 @@ p.fv-descrription {
     background-color: red;
     z-index: 9999999999999;
     background-blend-mode: overlay;
+    opacity: .5;
 }
 
 
