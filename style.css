@@ -210,19 +210,63 @@ section.section-three {
 p.fv-descrription {
     padding-bottom: 20px;
 }
-.video-play:hover{
-    background-color: red;
-    z-index: 9999999999999;
-    background-blend-mode: overlay;
-    opacity: .5;
+.online-game-video-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
 }
 
+.online-game-image img {
+    width: 100%;
+    position: relative;
+    transition: all .5;
+}
 
+.hoverr img {
+    width: 18%;
+}
 
-
-
-
-
+.hoverr {
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .5s;
+}
+.online-game-image:hover .hoverr{
+    opacity: 1;
+    z-index: 99999;
+    color: #FF42A5;
+}
+.online-game-image{
+    position: relative;
+    transition: all .5s;
+}
+.online-game-image:hover{
+    opacity: .8;
+}
+.online-game-text h2 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    margin: 0;
+    margin-top: 10px;
+}
+.funny-video-title {
+    text-align: center;
+}
+.section.section-three {
+    padding: 80px 0px;
+}
 
 
 @media screen and (max-width:576px){
