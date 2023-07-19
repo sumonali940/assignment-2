@@ -634,8 +634,30 @@ ul.shareIcons li img {
     ul.fmenu{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        text-align: center
+    }
+    .fmenu li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .fmenu li a{
+        padding: 0;
     }
     ul.fmenu li{
-        margin: 10px;
+        margin:8px 0px;
+    }
+    .fmenu2 li a{
+        color: gray;
+        text-decoration: none;
+    }
+    .fmenu2 li a{
+        padding: 0px;
+        text-align: center;
+    }
+    .fmenu2 li{
+        text-align: center;
+    }
+    .footer-copyright {
+        padding: 0px 80px;
     }
 }
