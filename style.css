@@ -466,6 +466,7 @@ ul.share-link li:hover{
 }
 .footer{
     background-color: #0B0223;
+    padding:100px 0px
 }
 .fmenu li a{
     color: #fff;
@@ -629,5 +630,12 @@ ul.shareIcons li img {
     .careers-image{
         width: 100%;
         margin-top: 20px;
+    }
+    ul.fmenu{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    ul.fmenu li{
+        margin: 10px;
     }
 }
