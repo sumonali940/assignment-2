@@ -33,6 +33,10 @@ body{
     padding: 10px;
     text-decoration: none;
 }
+ul.share-link li {
+    background: #f0f0f0;
+    border-radius: 50px;
+}
 .logo {
     display: flex;
     flex-direction: row;
