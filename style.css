@@ -37,6 +37,9 @@ ul.share-link li {
     background: #f0f0f0;
     border-radius: 50px;
 }
+.hoverr img{
+    width: ;
+}
 .logo {
     display: flex;
     flex-direction: row;
@@ -286,7 +289,6 @@ p.fv-descrription {
 .online-game-image img:hover{
     border: 2px solid red;
     border-radius: 15px;
-    width: 99%;
 }
 #play-invest{
     padding: 50px 0px;
